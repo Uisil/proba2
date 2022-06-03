@@ -110,6 +110,7 @@ int main(void)
   HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_2);
   int16_t prev_value = 0;
+  int twoja stara;
   while (1)
   {
     /* USER CODE END WHILE */
@@ -120,6 +121,7 @@ int main(void)
 	    printf("value = %d\n", value);
 	    prev_value = value;
 	  }
+	  //lecimy z nimi
   }
   /* USER CODE END 3 */
 }
